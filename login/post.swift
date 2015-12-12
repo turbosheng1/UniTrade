@@ -17,7 +17,7 @@ class post: UIViewController ,UINavigationControllerDelegate, UIImagePickerContr
     
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet weak var selectCategory: UILabel!
-    var category = ["Electronics", "Movies, Books and Music", "Fashion and Accessories"]
+    var category = ["Electronics", "Movies, Books and Music", "Sports and Leisure", "Fashion and Accessories","Cars and Motors", "Home and Garden", "Other"]
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return category[row]
     }
