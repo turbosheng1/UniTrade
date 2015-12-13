@@ -71,13 +71,13 @@ class modify: UIViewController, UINavigationControllerDelegate,UIImagePickerCont
         itemName.font = UIFont.boldSystemFontOfSize(17.0) // bold item name
         itemName.textColor = UIColor.whiteColor()
         itemName.backgroundColor = UIColor.grayColor()
-        itemName.layer.borderColor = UIColor(red: 0.4, green: 0.8, blue: 1, alpha: 0.693607).CGColor
+        itemName.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
         itemName.layer.borderWidth = 0.75
         itemName.layer.cornerRadius = 5
         //Price styling
         itemPrice.textColor = UIColor.whiteColor()
         itemPrice.backgroundColor = UIColor.grayColor()
-        itemPrice.layer.borderColor = UIColor(red: 0.4, green: 0.8, blue: 1, alpha: 0.693607).CGColor
+        itemPrice.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
         itemPrice.layer.borderWidth = 0.75
         itemPrice.layer.cornerRadius = 5
         
@@ -85,7 +85,7 @@ class modify: UIViewController, UINavigationControllerDelegate,UIImagePickerCont
         itemDescription.textColor = UIColor.whiteColor()
         itemDescription.backgroundColor = UIColor.grayColor()
         itemDescription.layer.borderWidth = 0.75
-        itemDescription.layer.borderColor = UIColor(red: 0.4, green: 0.8, blue: 1, alpha: 0.693607).CGColor
+        itemDescription.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
         itemDescription.layer.cornerRadius = 5
         
         // Swipe function
