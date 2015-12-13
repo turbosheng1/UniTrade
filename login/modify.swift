@@ -69,20 +69,20 @@ class modify: UIViewController, UINavigationControllerDelegate,UIImagePickerCont
         deleteP.layer.cornerRadius = 5
         //itemName
         itemName.font = UIFont.boldSystemFontOfSize(17.0) // bold item name
-        itemName.textColor = UIColor.blackColor()
+        itemName.textColor = UIColor(red:0.33, green:0.33, blue:0.33, alpha:1.0)
         itemName.backgroundColor = UIColor.whiteColor()
         itemName.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
         itemName.layer.borderWidth = 0.75
         itemName.layer.cornerRadius = 5
         //Price styling
-        itemPrice.textColor = UIColor.blackColor()
+        itemPrice.textColor = UIColor(red:0.33, green:0.33, blue:0.33, alpha:1.0)
         itemPrice.backgroundColor = UIColor.whiteColor()
         itemPrice.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
         itemPrice.layer.borderWidth = 0.75
         itemPrice.layer.cornerRadius = 5
         
         // Description
-        itemDescription.textColor = UIColor.blackColor()
+        itemDescription.textColor = UIColor(red:0.33, green:0.33, blue:0.33, alpha:1.0)
         itemDescription.backgroundColor = UIColor.whiteColor()
         itemDescription.layer.borderWidth = 0.75
         itemDescription.layer.borderColor = UIColor(red: 1.0, green: 0.39, blue: 0.11, alpha: 0.2).CGColor
