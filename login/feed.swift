@@ -261,8 +261,15 @@ class feed: UITableViewController,PFLogInViewControllerDelegate, PFSignUpViewCon
     
     //sign up
     func signUpViewController(signUpController: PFSignUpViewController, shouldBeginSignUp info: [NSObject : AnyObject]) -> Bool {
-        return true
+        let email = info["email"] as! String
+        if(email.containsString("wisc.edu")){
+            return true
+        }
+        let alert = UIAlertView(title: "Please SignUp with Wisc Email", message: nil, delegate: self, cancelButtonTitle: "OK")
+        alert.show()
+        return false
     }
+    
     func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) {
         
             let userface = UIImageView(image: UIImage(named: "user icon.png"))
